@@ -51,30 +51,3 @@ input:focus {
   align-items: center;
   position: relative;
 }
-
-@media only screen and (min-width: 420px) {
-  header {
-    padding: 41px 20px;
-  }
-
-  .wrapper {
-    gap: 73px;
-  }
-
-  input::placeholder {
-    font-size: 18px;
-  }
-
-  .wrapper input {
-    padding: 22px 64px;
-    font-size: 18px;
-  }
-
-  .labels p {
-    font-size: 24px;
-  }
-
-  /* .glass {
-    transform: scale(2)
-  } */
-}
