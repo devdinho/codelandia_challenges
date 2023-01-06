@@ -1,7 +1,6 @@
 header {
   display: flex;
   background: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
-  height: 200px;
   padding: 48px 20px;
   justify-content: center;
 }
@@ -12,6 +11,7 @@ header {
   justify-content: space-between;
   max-width: 900px;
   flex-grow: 1;
+  gap: 41px;
 }
 
 .labels {
@@ -54,7 +54,11 @@ input:focus {
 
 @media only screen and (min-width: 420px) {
   header {
-    padding: 41px 0;
+    padding: 41px 20px;
+  }
+
+  .wrapper {
+    gap: 73px;
   }
 
   input::placeholder {
@@ -63,9 +67,14 @@ input:focus {
 
   .wrapper input {
     padding: 22px 64px;
+    font-size: 18px;
   }
 
   .labels p {
     font-size: 24px;
   }
+
+  /* .glass {
+    transform: scale(2)
+  } */
 }
