@@ -45,4 +45,12 @@
     font-size: 18px !important;
   }
 
+  .glass-wrapper {
+    width: 64px !important;
+  }
+
+  .glass {
+    transform: scale(1.4) !important;
+  }
+
 }
