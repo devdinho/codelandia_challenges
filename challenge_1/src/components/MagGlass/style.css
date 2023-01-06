@@ -1,0 +1,13 @@
+.glass-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 100%;
+  position: absolute;
+}
+
+.glass {
+  left: 12px;
+  pointer-events: none;
+}
