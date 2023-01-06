@@ -1,15 +1,12 @@
 import Card from "../Card";
-import Heart from "../Heart";
+import CardHeader from "../CardHeader";
 import "./style.css";
 
 const Main = () => {
   return (
     <main>
       <Card>
-        <div className="card-header">
-          <span>02 de jul, 2021</span>
-          <Heart />
-        </div>
+        <CardHeader />
         <div className="news-container">
           <h3>Agora é oficial: o Windows 11 está vindo</h3>
           <p>
@@ -20,10 +17,7 @@ const Main = () => {
         </div>
       </Card>
       <Card>
-        <div className="card-header">
-          <span>02 de jul, 2021</span>
-          <Heart />
-        </div>
+        <CardHeader />
         <div className="news-container">
           <h3>Tim Berners-Lee vai leiloar código-fonte da web</h3>
           <p>
@@ -36,10 +30,7 @@ const Main = () => {
         </div>
       </Card>
       <Card>
-        <div className="card-header">
-          <span>02 de jul, 2021</span>
-          <Heart />
-        </div>
+        <CardHeader />
         <div className="news-container">
           <h3>Tem Firefox novo no pedaço e você vai querer migrar</h3>
           <p>
@@ -48,10 +39,7 @@ const Main = () => {
         </div>
       </Card>
       <Card>
-        <div className="card-header">
-          <span>02 de jul, 2021</span>
-          <Heart />
-        </div>
+        <CardHeader />
         <div className="news-container">
           <h3>John MCAfee, criador do antivírus McAfee, morre</h3>
           <p>
