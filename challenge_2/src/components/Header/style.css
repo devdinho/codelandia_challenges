@@ -1,0 +1,11 @@
+.promo-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #181818;
+  color: #FFFFFF;
+  padding: 15px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+}
