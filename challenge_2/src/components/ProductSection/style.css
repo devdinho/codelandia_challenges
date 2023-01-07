@@ -4,4 +4,5 @@
   gap: 30px 20px;
   align-items: center;
   justify-content: center;
+  max-width: 1600px;
 }
