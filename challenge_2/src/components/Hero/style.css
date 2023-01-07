@@ -1,5 +1,7 @@
 .hero {
-  object-fit: cover;
   height: 378px;
-  width: 100%;
+  background-image: url("/hero.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
