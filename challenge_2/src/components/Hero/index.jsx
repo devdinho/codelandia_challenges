@@ -1,8 +1,8 @@
 import "./style.css";
 
-const Hero = () => {
+const Hero = ({ children }) => {
   return (
-    <div className="hero"></div>
+    <div className="hero">{ children }</div>
   )
 };
 

@@ -1,0 +1,33 @@
+.hero-info {
+  max-width: 640px;
+}
+
+.hero-info h2 {
+  color: #F9F9F9;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.75);
+}
+
+.hero-info p {
+  color: #F9F9F9;
+  line-height: 29px;
+  font-size: 16px;
+  font-weight: 600;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.75);
+}
+
+@media only screen and (min-width: 420px) {
+  .hero-info h2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+  }
+
+  .hero-info p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+  }
+}

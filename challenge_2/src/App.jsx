@@ -7,6 +7,7 @@ import ProductCard from './components/ProductCard';
 import ProductSection from './components/ProductSection';
 import Title from './components/Title';
 import Main from './components/Main';
+import HeroInfo from './components/HeroInfo';
 
 const products = "12345678".split("");
 
@@ -16,7 +17,9 @@ function App() {
     <div className="App">
       <Header />
       <Title />
-      <Hero />
+      <Hero>
+        <HeroInfo />
+      </Hero>
       <Main>
         <InfoSection />
         <ProductSection>

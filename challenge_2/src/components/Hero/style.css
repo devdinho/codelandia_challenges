@@ -1,7 +1,14 @@
 .hero {
-  height: 378px;
+  /* height: 378px; */
+  padding: 122px 20px;
   background-image: url("/hero.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero {
+    padding: 104px 100px 113px 100px;
+  }
 }
