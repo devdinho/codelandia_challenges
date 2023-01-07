@@ -2,7 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* flex: 1 0 375px; */
+  flex: 1 0 375px;
+  padding: 76px 62px;
   max-width: 415px;
   background-color: #EBE9EA;
 }
@@ -10,5 +11,4 @@
 .product-card img {
   object-fit: cover;
   width: 250px;
-  height: 150px;
 }
