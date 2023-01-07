@@ -2,7 +2,7 @@ import "./style.css";
 
 const Hero = () => {
   return (
-    <img className="hero" src="/hero" alt="Girl with shoes" />
+    <img className="hero" src="/hero.jpeg" alt="Girl with shoes" />
   )
 };
 
